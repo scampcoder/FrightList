@@ -68,6 +68,22 @@ body {
   transform: translate(-50%, -50%);
   width: 80%;
 }
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .4;
+}
+
+.bg-video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 /* end of banner */
 
 .mission {
