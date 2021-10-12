@@ -122,6 +122,21 @@ header {
 }
 /* end of weekly movies */
 
+/* PROFILE PG */
+.profile-blurb {
+  border: solid white;
+}
+
+
+.about-me h5 {
+  border-bottom: solid #880808;
+}
+
+.carousel-col {
+  height: 100%;
+}
+/* END OF PROFILE PG */
+
 /* footer */
 .instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,
