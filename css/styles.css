@@ -1,17 +1,17 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .bg-blood {
-    background-color: #880808;
+  background-color: #880808;
 }
 
 .text-blood {
-    color: #880808;
+  color: #880808;
 }
 
 .scary-font {
-    font-family: 'Nosifer', cursive;
+  font-family: "Nosifer", cursive;
 }
 
 /* search bar */
@@ -20,30 +20,30 @@ body {
   border-color: transparent;
   border-bottom: 2px solid black;
   border-radius: 0;
-  transition: all .8s;
+  transition: all 0.8s;
   color: black;
 }
 
 .search-bar::placeholder {
-    color: black;
+  color: black;
 }
 
 .search-bar:focus::placeholder {
-    color: transparent;
-  }
+  color: transparent;
+}
 
 .search-bar:focus {
   background: transparent;
   border-color: transparent;
   box-shadow: none;
   color: black;
-  border-bottom: 2px solid gray;  
+  border-bottom: 2px solid gray;
 }
 
 .search-button {
-    background: black;
-    color: #A64646;
-    transition: all .3s;
+  background: black;
+  color: #A64646;
+  transition: all 0.3s;
 }
 
 .search-button:hover {
@@ -51,18 +51,18 @@ body {
   color: #440404;
   transform: translateY(-3px);
 }
-/* end of search bar */
 
+/* end of search bar */
 /* navbar */
 .nav-menu {
-    padding: 30px;
+  padding: 30px;
 }
 
 nav {
-  border-bottom: 2px solid black ;
+  border-bottom: 2px solid black;
 }
-/* end of navbar */
 
+/* end of navbar */
 /* banner */
 header {
   height: 100vh;
@@ -83,7 +83,7 @@ header {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .bg-video {
@@ -91,19 +91,19 @@ header {
   height: 100%;
   width: 100%;
 }
-/* end of banner */
 
+/* end of banner */
 /* mission */
 .underline {
   width: 150px;
   border: 3px solid;
   margin: auto;
 }
-/* end of mission */
 
+/* end of mission */
 /* weekly movies */
 #weekly-movies {
-  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(img/scary-forest.jpg) fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/scary-forest.jpg) fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,7 +112,7 @@ header {
   height: 500px;
   width: 350px;
   box-shadow: 5px 5px 20px #000;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #weekly-movies img:hover {
@@ -120,29 +120,30 @@ header {
   transform: scale(1.2);
   box-shadow: 25px 25px 15px #000;
 }
-/* end of weekly movies */
 
+/* end of weekly movies */
 /* PROFILE PG */
 .profile-blurb {
   border: solid white;
 }
 
-
 .about-me h5 {
   border-bottom: solid #880808;
 }
 
-.carousel-col {
-  height: 100%;
+.carousel img {
+  height: 364px;
 }
-/* END OF PROFILE PG */
 
+/* END OF PROFILE PG */
 /* footer */
 .instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,
-  #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: 60px;
   place-items: center;
 }
+
 /* end of footer */
+
+/*# sourceMappingURL=styles.css.map */
