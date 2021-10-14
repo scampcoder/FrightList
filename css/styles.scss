@@ -65,6 +65,19 @@ body {
 nav {
   border-bottom: 2px solid black ;
 }
+
+#navbarSupportedContent {
+    a {
+        transition: all .3s;
+    }
+}
+
+#navbarSupportedContent {
+    a:hover {
+        color: gray;
+        font-size: 1.1rem;
+    }
+}
 /* end of navbar */
 
 /* banner */
