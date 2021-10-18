@@ -137,13 +137,24 @@ header {
 
 
 
-@media (max-width: 1159px) {
+@media (max-width: 959px) {
   #weekly-movies-tri{
     display: none;
   }
 }
 
-@media (min-width: 1159px) {
+@media (max-width:1180px) and (min-width:959px) {
+  #weekly-movies {
+    img {
+        height: 20rem;
+        width: auto;
+        box-shadow: 5px 5px 20px #000;
+        transition: all .5s;
+      }
+}
+}
+
+@media (min-width: 959px) {
   #weekly-movies-carousel {
     display: none;
   }
