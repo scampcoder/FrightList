@@ -1,6 +1,7 @@
 $bloodred: #880808;
 $light-blood: #A64646;
 $dark-blood: #440404;
+$dark-gray: #777676;
 
 body {
     background-color: black;
@@ -41,7 +42,7 @@ body {
   border-color: transparent;
   box-shadow: none;
   color: black;
-  border-bottom: 2px solid gray;  
+  border-bottom: 2px solid $dark-gray;  
 }
 
 .search-button {
@@ -51,7 +52,7 @@ body {
 }
 
 .search-button:hover {
-  background: gray;
+  background: $dark-gray;
   color: $dark-blood;
   transform: translateY(-3px);
 }
@@ -74,7 +75,7 @@ nav {
 
 #navbarSupportedContent {
     a:hover {
-        color: gray;
+        color: $dark-gray;
         font-size: 1.1rem;
     }
 }
@@ -127,8 +128,8 @@ header {
 
 #weekly-movies {
     img {
-        height: 500px;
-        width: 350px;
+        height: 30rem;
+        width: auto;
         box-shadow: 5px 5px 20px #000;
         transition: all .5s;
       }
@@ -138,6 +139,12 @@ header {
   cursor: pointer;
   transform: scale(1.2);
   box-shadow: 25px 25px 15px #000;
+}
+
+@media (max-width: 959px) {
+  #weekly-movies-tri{
+    display: none;
+  }
 }
 /* end of weekly movies */
 
@@ -158,6 +165,26 @@ header {
         height: 364px;
       }
 }
+
+.border-bottom-blood {
+    border-bottom: 2px solid $bloodred;
+    width: 30%;
+    margin: auto;
+}
+
+.activity {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.profile-icon {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 30%;
+    border: .5px solid white;
+}
+
 /* END OF PROFILE PG */
 
 /* footer */
