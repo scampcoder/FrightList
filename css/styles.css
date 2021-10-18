@@ -208,10 +208,13 @@ header {
   margin: auto;
 }
 
+.activities {
+  margin-left: 26%;
+}
+
 .activity {
   position: relative;
   margin-bottom: 20px;
-  margin-left: 150px;
 }
 
 .profile-icon {
@@ -219,6 +222,18 @@ header {
   margin-right: 10px;
   border-radius: 30%;
   border: .5px solid white;
+}
+
+.movie-title {
+  font-style: italic;
+}
+
+.user-activity {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30rem;
+  padding-left: 30px;
 }
 
 /* END OF PROFILE PG */

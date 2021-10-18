@@ -135,8 +135,6 @@ header {
       }
 }
 
-
-
 @media (max-width: 959px) {
   #weekly-movies-tri{
     display: none;
@@ -151,7 +149,7 @@ header {
         box-shadow: 5px 5px 20px #000;
         transition: all .5s;
       }
-}
+  }
 }
 
 @media (min-width: 959px) {
@@ -190,10 +188,13 @@ header {
     margin: auto;
 }
 
+.activities {
+  margin-left: 26%;
+}
+
 .activity {
     position: relative;
     margin-bottom: 20px;
-    margin-left: 150px;
 }
 
 .profile-icon {
@@ -203,6 +204,15 @@ header {
     border: .5px solid white;
 }
 
+.movie-title {
+  font-style: italic;
+}
+
+.user-activity {
+  display: inline-flex;
+  width: 30rem;
+  padding-left: 30px;
+}
 /* END OF PROFILE PG */
 
 /* footer */
