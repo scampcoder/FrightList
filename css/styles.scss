@@ -135,15 +135,22 @@ header {
       }
 }
 
-#weekly-movies img:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-  box-shadow: 25px 25px 15px #000;
-}
 
-@media (max-width: 959px) {
+
+@media (max-width: 1159px) {
   #weekly-movies-tri{
     display: none;
+  }
+}
+
+@media (min-width: 1159px) {
+  #weekly-movies-carousel {
+    display: none;
+  }
+  #weekly-movies img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 25px 25px 15px #000;
   }
 }
 /* end of weekly movies */
