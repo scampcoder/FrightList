@@ -204,7 +204,7 @@ header {
     border: .5px solid white;
 }
 
-.movie-title {
+.comment-movie-title {
   font-style: italic;
 }
 
@@ -214,6 +214,62 @@ header {
   padding-left: 30px;
 }
 /* END OF PROFILE PG */
+
+/* My Lists PG */
+#lists {
+  margin-bottom: 40px;
+}
+.watchlist {
+  .list-movie:nth-child(even) {
+    background-color: rgba(68, 68, 67, 0.5);
+  }
+}
+
+.watched-list {
+  .list-movie:nth-child(odd) {
+    background-color: rgba(68, 68, 67, 0.5);
+  }
+}
+
+.list-title {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.separator {
+  border-top: 2px solid white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.movie-title {
+  color: white;
+}
+
+.movie-info {
+  color: #CCCCCC;
+  font-size: 12px;
+}
+
+.movie-description {
+  color: white;
+  display: inline-block;
+  width: 90%;
+}
+
+.list-movie {
+  img {
+    height: 200px;
+    width: auto;
+  }
+}
+.list-movie {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* End of My Lists PG */
 
 /* footer */
 .instagram {
