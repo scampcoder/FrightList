@@ -271,6 +271,56 @@ header {
 }
 /* End of My Lists PG */
 
+/* Movie Pg Template */
+.movie-pg-container {
+  margin-left: 15%;
+}
+.movie-pg-title {
+  margin-bottom: 0%;
+}
+
+.movie-pg-info {
+  color: #CCCCCC;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-pg-category {
+  margin-bottom: 20px;
+  span {
+    background-color: $bloodred;
+    color: black;
+    border-radius: 8%;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  span:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.movie-pg-img {
+ vertical-align: top;
+}
+
+.synopsis {
+  color: #CCC;
+  width: 70%;
+  margin-left: 4%;
+}
+
+.reviews {
+  background-color: rgb(68, 68, 67);
+}
+
+.reviews-inner {
+  margin-left: 15%;
+}
+/* End of Movie Pg Template */
+
+
 /* footer */
 .instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,
