@@ -13,3 +13,7 @@
 - Review section and the ability to leave new reviews/comments
 - User lists for watched and to be watched horror movies
 - Perhaps have a “movie of the week”?
+
+### Section One
+
+This is my project for nucamp's full stack course. The first section of the course being Bootstrap. I used the framework to construct responsive pages a bit easier as well as the creation of my navbar.
